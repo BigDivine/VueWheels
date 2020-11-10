@@ -16,3 +16,7 @@
 + 暂未适配 vue-cli@3.x，请知悉。
 + vux支持less-loader最大版本为5.0.0，高版本会报错：loaderContext.getResolve is not a function
 
+2020-11-10
+
++ pc和移动分开两个包
++ 新增判断移动端是ios/Android/web
