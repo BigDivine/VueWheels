@@ -89,12 +89,6 @@ const originalConfig = {
     child_process: 'empty'
   }
 }
-const vuxLoader = require('vux-loader')
 const webpackConfig = originalConfig // 原来的 module.exports 代码赋值给变量 webpackConfig
 
-module.exports = vuxLoader.merge(webpackConfig, {
-  options: {
-    showVuxVersionInfo: false //关闭vux在console里输出的版本信息
-  },
-  plugins: ['vux-ui']
-})
+module.exports =  webpackConfig

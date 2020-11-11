@@ -1,19 +1,13 @@
 <template>
   <div id="app">
     <router-view />
-    <x-loading v-model="isLoading" />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
-  computed: {
-    isLoading () {
-      return this.$store.state.router.isLoading
-    }
-  }
-}
+	name: 'App',
+};
 </script>
 
 <style >

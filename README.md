@@ -20,3 +20,9 @@
 
 + pc和移动分开两个包
 + 新增判断移动端是ios/Android/web
+
+2020-11-11
+
++ 去掉vux、vux-loader两个依赖
++ 增加package.json说明：[package文件说明](./packageexplain.md)
++ 编写.eslintric代码检验规则。[点击进入腾讯云eslint指南](https://cloud.tencent.com/developer/chapter/12617)

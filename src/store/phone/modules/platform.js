@@ -1,14 +1,13 @@
-import * as mutations from '../mutations'
+import * as types from '../mutation-types';
 
-const Platform = {
-  state: () => ({
-    phoneOS: ''
-  }),
-  mutations: {
-    [mutations.PHONE_OS] (state, res) {
-      state.phoneOS = res
-    }
-  }
-}
+const state = {
+	phoneOS: ''
+};
 
-export { Platform }
+const mutations = {
+	[types.PHONE_OS](state, res) {
+		state.phoneOS = res;
+	}
+};
+
+export default { state, mutations };

@@ -1,11 +1,15 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import Modules from './modules'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import Platform from './modules/platform';
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 const store = new Vuex.Store({
-  modules: Modules
-})
+	modules: {
+		platform: Platform
+	},
+	// open strict model to catch exact error msg
+	// strict: process.env.NODE_ENV !== 'production'
+});
 
-export default store
+export default store;
