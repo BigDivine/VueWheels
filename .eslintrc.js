@@ -24,8 +24,6 @@ module.exports = {
     "eslint:recommended",
     "plugin:promise/recommended",
     "plugin:vue/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings"
   ],
   "plugins": [
     "promise",
@@ -42,9 +40,10 @@ module.exports = {
     "eqeqeq": [2, "always"], // 要求使用 === 和 !==
     "semi": [2, "always"], // 要求使用分号代替 ASI
     "quotes": [2, "single"], // 强制使用一致的反勾号、双引号或单引号
+    "no-console":"off",
     "standard/object-curly-even-spacing": [2, "either"],
     "standard/array-bracket-even-spacing": [2, "either"],
     "standard/computed-property-even-spacing": [2, "even"],
-    "standard/no-callback-literal": [2, ["cb", "callback"]]
+    "standard/no-callback-literal": [2, ["cb", "callback"]],
   }
 }

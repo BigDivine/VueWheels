@@ -4,7 +4,7 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
 
@@ -91,4 +91,4 @@ const originalConfig = {
 }
 const webpackConfig = originalConfig // 原来的 module.exports 代码赋值给变量 webpackConfig
 
-module.exports =  webpackConfig
+module.exports = webpackConfig
