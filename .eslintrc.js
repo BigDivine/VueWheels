@@ -23,12 +23,13 @@ module.exports = {
   "extends": [
     "eslint:recommended",
     "plugin:promise/recommended",
-    "plugin:vue/recommended",
+    'plugin:vue/essential',
+
   ],
   "plugins": [
     "promise",
-    "vue",
     "standard",
+    "vue",
     "html", // 此插件用来识别.html 和 .vue文件中的js代码
   ],
   "rules": {
@@ -41,9 +42,8 @@ module.exports = {
     "semi": [2, "always"], // 要求使用分号代替 ASI
     "quotes": [2, "single"], // 强制使用一致的反勾号、双引号或单引号
     "no-console":"off",
-    "standard/object-curly-even-spacing": [2, "either"],
-    "standard/array-bracket-even-spacing": [2, "either"],
-    "standard/computed-property-even-spacing": [2, "even"],
-    "standard/no-callback-literal": [2, ["cb", "callback"]],
+    "no-multiple-empty-lines": [1, {"max": 1}], //允许的最大空行
+    "html/indent": "tab",
+
   }
 }

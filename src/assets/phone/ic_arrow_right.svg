@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>箭头</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="10" y="244" width="394" height="593" rx="8"></rect>
+        <filter x="-1.1%" y="-0.8%" width="102.3%" height="101.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="企业微信-云报账--我的" transform="translate(-378.000000, -288.000000)">
+            <rect fill="#F7F8F9" x="0" y="0" width="414" height="896"></rect>
+            <g id="矩形备份">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="编组-3" transform="translate(26.000000, 276.000000)">
+                <g id="箭头" transform="translate(352.000000, 12.000000)">
+                    <rect id="Rectangle-3" x="0" y="0" width="10" height="10"></rect>
+                    <path d="M3.84488483,4.88005091 L7.77266261,0.952273127 C7.99050826,0.734427476 7.99050826,0.38122989 7.77266261,0.163384238 C7.55481696,-0.0544614128 7.20161937,-0.0544614128 6.98377372,0.163384238 L2.6615515,4.48560646 C2.4461495,4.70229394 2.4461495,5.05225232 2.6615515,5.26893979 L6.98377372,9.59116202 C7.11954588,9.74970433 7.33272838,9.8187631 7.53567315,9.76994542 C7.73861791,9.72112775 7.89707279,9.56267288 7.94589046,9.35972811 C7.99470813,9.15678335 7.92564936,8.94360084 7.76710705,8.80782868 L3.84488483,4.88005091 Z" id="图标-01头部-返回" fill="#C6C6C6" fill-rule="nonzero" transform="translate(5.230658, 4.892685) scale(-1, 1) translate(-5.230658, -4.892685) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
